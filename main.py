@@ -1,8 +1,9 @@
 from password_checker import pwned_api_check
 from password_generator import password_generator
+import sys
 
 def main():
-    password = password_generator(12)
+    password = password_generator(int(sys.argv[1]))
     print(f'Password generated successfully. The suggested password is {password}')
 
     count = pwned_api_check(password)
