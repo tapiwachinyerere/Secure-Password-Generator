@@ -43,7 +43,3 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 4. Submit a pull request with your changes, detailing the improvements made and any relevant information.
 
 Thank you for contributing to this project!
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
